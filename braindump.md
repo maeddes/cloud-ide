@@ -15,6 +15,7 @@ Requirements:
 
 
 - 12-factor X Dev/Prod Parity 
+    - https://12factor.net/dev-prod-parity
     - idea to keep environments between dev, test and prod as consistent as possible
     - the tool gap
 - Dev/Dev parity
@@ -32,4 +33,21 @@ Github / Codespaces
 - github.dev
 - access to codespaces
 
+Links:
+- https://docs.github.com/en/billing/managing-billing-for-github-codespaces/viewing-your-github-codespaces-usage
+- https://github.com/settings/billing
+
+
+
 devcontainer.json
+
+
+Gitpod
+- https://www.gitpod.io/
+- https://gitpod.io/billing
+
+devpod.sh
+- https://devpod.sh/
+
+Samples:
+- https://github.com/open-telemetry/opentelemetry-demo
