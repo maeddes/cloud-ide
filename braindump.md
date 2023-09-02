@@ -26,7 +26,10 @@ Requirements:
 
 More Why? Scenarios
 
-
+- Trying out things
+- Trainings 
+- Tutorials
+- Multiple different projects and settings
 
 
 Github / Codespaces
