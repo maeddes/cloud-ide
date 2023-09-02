@@ -38,16 +38,24 @@ Links:
 - https://github.com/settings/billing
 
 
-
-devcontainer.json
+Devcontainer
+- devcontainer.json
+- https://github.com/microsoft/vscode-dev-containers/blob/main/containers/codespaces-linux/.devcontainer/Dockerfile
+- https://github.com/microsoft/vscode-remote-try-java/tree/main/.devcontainer
 
 
 Gitpod
 - https://www.gitpod.io/
 - https://gitpod.io/billing
+- https://www.gitpod.io/docs/configure/workspaces/workspace-image
+
 
 devpod.sh
 - https://devpod.sh/
+- https://devpod.sh/docs/what-is-devpod
+- https://github.com/loft-sh/devpod/tree/main/.devcontainer
+
 
 Samples:
 - https://github.com/open-telemetry/opentelemetry-demo
+- https://opentelemetry.io/docs/demo/docker-deployment/
