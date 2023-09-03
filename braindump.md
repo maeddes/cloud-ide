@@ -42,6 +42,10 @@ curl https://start.spring.io/starter.zip -d type=maven-project -d dependencies=w
 curl https://start.spring.io/starter.zip -d type=maven-project -d dependencies=web,actuator,devtools -d name=other -o other.zip
 ´´´´
 
+cmd+shift+p:
+Java: Import Java Projects
+Workspace: Remove Folder
+
 docker init does not work
 add to devcontainer.json
 
