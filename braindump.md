@@ -36,6 +36,14 @@ Github / Codespaces
 - github.dev
 - access to codespaces
 
+´´´´
+curl https://start.spring.io
+curl https://start.spring.io/starter.zip -d type=maven-project -d dependencies=web,actuator -o demo.zip 
+´´´´
+
+docker init does not work
+add to devcontainer.json
+
 Links:
 - https://docs.github.com/en/billing/managing-billing-for-github-codespaces/viewing-your-github-codespaces-usage
 - https://github.com/settings/billing
