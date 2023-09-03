@@ -44,6 +44,11 @@ curl https://start.spring.io/starter.zip -d type=maven-project -d dependencies=w
 docker init does not work
 add to devcontainer.json
 
+Check for Java projects lower left and add them
+
+Look into devcontainer.json
+and settings.json
+
 Links:
 - https://docs.github.com/en/billing/managing-billing-for-github-codespaces/viewing-your-github-codespaces-usage
 - https://github.com/settings/billing
