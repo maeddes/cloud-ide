@@ -39,6 +39,7 @@ Github / Codespaces
 ´´´´
 curl https://start.spring.io
 curl https://start.spring.io/starter.zip -d type=maven-project -d dependencies=web,actuator -o demo.zip 
+curl https://start.spring.io/starter.zip -d type=maven-project -d dependencies=web,actuator,devtools -d name=other -o other.zip
 ´´´´
 
 docker init does not work
