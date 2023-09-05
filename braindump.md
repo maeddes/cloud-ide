@@ -54,6 +54,9 @@ Check for Java projects lower left and add them
 Look into devcontainer.json
 and settings.json
 
+uname -a
+
+
 Links:
 - https://docs.github.com/en/billing/managing-billing-for-github-codespaces/viewing-your-github-codespaces-usage
 - https://github.com/settings/billing
@@ -69,6 +72,7 @@ Gitpod
 - https://www.gitpod.io/
 - https://gitpod.io/billing
 - https://www.gitpod.io/docs/configure/workspaces/workspace-image
+- brave://extensions/
 
 
 devpod.sh
