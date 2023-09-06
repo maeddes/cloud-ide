@@ -35,7 +35,11 @@ More Why? Scenarios
 Github / Codespaces
 - github.dev
 - access to codespaces
+- https://github.com/codespaces
 
+
+
+Java
 ´´´´
 curl https://start.spring.io
 curl https://start.spring.io/starter.zip -d type=maven-project -d dependencies=web,actuator -o demo.zip 
@@ -55,6 +59,8 @@ Look into devcontainer.json
 and settings.json
 
 uname -a
+lscpu
+cat /proc/meminfo
 
 
 Links:
@@ -84,3 +90,36 @@ devpod.sh
 Samples:
 - https://github.com/open-telemetry/opentelemetry-demo
 - https://opentelemetry.io/docs/demo/docker-deployment/
+
+Shell stuff:
+
+zsh/fzf:
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+
+brew install fzf
+/opt/homebrew/opt/fzf/install
+
+bindkey "^[[A" fzf-history-widget
+bindkey "${terminfo[kcuu1]}" fzf-history-widget
+
+without omz
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+with omz
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+plugins=( 
+    # other plugins...
+    zsh-autosuggestions
+)
+
+omz theme list
+omz theme
+omz theme use agnoster
+omz set agnoster
+omz theme set agnoster
+
+https://github.com/ohmyzsh/ohmyzsh/wiki
+
+
