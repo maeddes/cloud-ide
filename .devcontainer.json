@@ -10,8 +10,7 @@
 			"version": "none",
 			"installMaven": "true",
 			"installGradle": "false"
-		},
-		"github-cli": "latest"
+		}
 	},
 	"customizations": {
 		"vscode": {
