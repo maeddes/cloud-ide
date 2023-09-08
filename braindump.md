@@ -37,8 +37,6 @@ Github / Codespaces
 - access to codespaces
 - https://github.com/codespaces
 
-
-
 Java
 ´´´´
 curl https://start.spring.io
@@ -50,14 +48,17 @@ cmd+shift+p:
 Java: Import Java Projects
 Workspace: Remove Folder
 
-docker init does not work
-add to devcontainer.json
+
 
 Check for Java projects lower left and add them
+
+https://www.baeldung.com/spring-rest-openapi-documentation
 
 Look into devcontainer.json
 and settings.json
 
+
+Host Info:
 uname -a
 lscpu
 cat /proc/meminfo
@@ -92,6 +93,17 @@ Samples:
 - https://github.com/open-telemetry/opentelemetry-demo
 - https://opentelemetry.io/docs/demo/docker-deployment/
 
+
+Container stuff:
+
+docker 
+
+sudo add-apt-repository ppa:cncf-buildpacks/pack-cli
+sudo apt-get update
+sudo apt-get install pack-cli
+
+
+
 Shell stuff:
 
 zsh/fzf:
@@ -124,3 +136,6 @@ omz theme set agnoster
 https://github.com/ohmyzsh/ohmyzsh/wiki
 
 
+old:
+docker init does not work
+add to devcontainer.json
