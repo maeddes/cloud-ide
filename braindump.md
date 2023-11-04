@@ -38,12 +38,14 @@ Github / Codespaces
 - access to codespaces
 - https://github.com/codespaces
 
-Java
-´´´´
+#Spring Boot
+
+
+```bash
 curl https://start.spring.io
 curl https://start.spring.io/starter.zip -d type=maven-project -d dependencies=web,actuator -o demo.zip 
 curl https://start.spring.io/starter.zip -d type=maven-project -d dependencies=web,actuator,devtools -d name=other -o other.zip
-´´´´
+```
 
 cmd+shift+p:
 Java: Import Java Projects
