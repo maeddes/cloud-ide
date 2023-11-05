@@ -82,8 +82,15 @@ Devcontainer
 Gitpod
 - https://www.gitpod.io/
 - https://gitpod.io/billing
-- https://www.gitpod.io/docs/configure/workspaces/workspace-image
+
 - brave://extensions/
+  
+- https://www.gitpod.io/docs/introduction/languages/java
+
+  
+- https://www.gitpod.io/docs/configure/workspaces/workspace-image
+- https://github.com/gitpod-io/workspace-images
+- https://github.com/docker-library/buildpack-deps
 
 
 devpod.sh
