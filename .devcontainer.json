@@ -10,7 +10,9 @@
 			"version": "none",
 			"installMaven": "true",
 			"installGradle": "false"
-		}
+		},
+		"ghcr.io/audacioustux/devcontainers/k9s:1": {},
+		"ghcr.io/devcontainers-contrib/features/fzf:1": {}
 	},
 	"customizations": {
 		"vscode": {
