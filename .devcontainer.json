@@ -3,11 +3,11 @@
 {
 	"name": "Java",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/java:1-17-bullseye",
-
+	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+		
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
-			"version": "none",
+			"version": "21",
 			"installMaven": "true",
 			"installGradle": "false"
 		},
@@ -16,7 +16,7 @@
 	},
 	"customizations": {
 		"vscode": {
-			"extensions": [
+					"extensions": [
 				"vscjava.vscode-java-pack",
 				"redhat.java",
 				"vscjava.vscode-maven",

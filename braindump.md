@@ -35,7 +35,7 @@ More Why? Scenarios
 
 Github / Codespaces
 - github.dev
-- access to codespaces
+    - access to codespaces±
 - https://github.com/codespaces
 
 #Spring Boot
