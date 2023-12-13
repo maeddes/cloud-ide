@@ -149,3 +149,8 @@ https://github.com/ohmyzsh/ohmyzsh/wiki
 old:
 docker init does not work
 add to devcontainer.json
+
+
+git stuff:
+
+git submodule update --init
