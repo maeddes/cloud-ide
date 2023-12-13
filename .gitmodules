@@ -1,0 +1,6 @@
+[submodule "gitpod-playground"]
+	path = gitpod-playground
+	url = https://github.com/maeddes/gitpod-playground
+[submodule "devcontainer-playground"]
+	path = devcontainer-playground
+	url = https://github.com/maeddes/devcontainer-playground
