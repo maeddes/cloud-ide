@@ -25,8 +25,19 @@
 				"vscjava.vscode-spring-initializr",
 				"ms-azuretools.vscode-docker"
 			]
+		},
+		"codespaces": {
+			"repositories": {
+				"maeddes/devcontainer-playground": {
+					"permissions": "write-all"
+				},
+				"maeddes/gitpod-playground": {
+					"permissions": "write-all"
+				}
+			}
 		}
 	}
+	
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
