@@ -1,1 +1,3 @@
+# file must be called gitpod.yml and not .yaml :-)
+
 image: maeddes/gitpod:full
